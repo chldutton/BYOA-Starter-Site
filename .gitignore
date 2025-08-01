@@ -6,6 +6,7 @@ yarn-error.log*
 
 # Generated files
 src/js/blog-data.json
+dist/
 
 # OS generated files
 .DS_Store

@@ -1,0 +1,29 @@
+{
+  "name": "simple-static-website",
+  "version": "1.0.0",
+  "description": "A simple static website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "node build.js && python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "dev": "node build.js && python -m http.server 8000",
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "markdown"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "marked": "^9.1.6",
+    "fs-extra": "^11.2.0",
+    "gray-matter": "^4.0.3"
+  }
+} 

@@ -7,7 +7,7 @@
     "start": "node build.js && python -m http.server 8000",
     "serve": "python -m http.server 8000",
     "serve-dist": "node build.js && python -m http.server 8000 --directory dist",
-    "dev": "node build.js && python -m http.server 8000",
+    "dev": "node build.js --watch & python -m http.server 8000 --directory dist",
     "build": "node build.js",
     "watch": "node build.js --watch"
   },
